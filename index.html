@@ -21,7 +21,6 @@
             let container = document.getElementById('resultArea');
             let result = eval(container.innerHTML);
             container.innerHTML = result;
-
         }
 
         function deleteResult(){
@@ -32,6 +31,8 @@
             } else {
                 container.innerHTML = container.innerHTML.slice(0, -1);
             }
+         
+         <!---Here I'd like to do another function with 'CE' which then deletes all existing calculation and jumps back to 0 ---> 
         }
     </script>
 </head>
