@@ -13,7 +13,7 @@
 <title>Calculator</title>
     
 
-    ><script>
+    <script>
         function appendOperation(operation){
             document.getElementById('resultArea').innerHTML += operation;
         }
@@ -22,7 +22,6 @@
             let container = document.getElementById('resultArea');
             let result = eval(container.innerHTML);
             container.innerHTML = result;
-
         }
 
         function deleteResult(){
